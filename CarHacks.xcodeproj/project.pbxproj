@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F62B35D2DA2335A00634CB8 /* CarHacksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62B35C2DA2335A00634CB8 /* CarHacksApp.swift */; };
+		5F62B35F2DA2335A00634CB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62B35E2DA2335A00634CB8 /* ContentView.swift */; };
+		5F62B3612DA2335B00634CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F62B3602DA2335B00634CB8 /* Assets.xcassets */; };
+		5F62B3642DA2335B00634CB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F62B3632DA2335B00634CB8 /* Preview Assets.xcassets */; };
+		5F62B36C2DA233AF00634CB8 /* CarBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62B36B2DA233AF00634CB8 /* CarBrand.swift */; };
+		5F62B36F2DA2342200634CB8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62B36E2DA2342200634CB8 /* HomeView.swift */; };
+		5F62B3712DA2357700634CB8 /* BrandsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62B3702DA2357700634CB8 /* BrandsView.swift */; };
+		5F62B3732DA2379C00634CB8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62B3722DA2379C00634CB8 /* ProfileView.swift */; };
+		5F62B3752DA239FA00634CB8 /* AddPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62B3742DA239FA00634CB8 /* AddPostView.swift */; };
+		5FBC2BB02DA26142009AD26D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC2BAF2DA26142009AD26D /* Post.swift */; };
+		5FDEC45B2DB29CB400F9B9D7 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDEC45A2DB29CB400F9B9D7 /* CameraView.swift */; };
+		5FDEC45D2DB2A41400F9B9D7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDEC45C2DB2A41400F9B9D7 /* DataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F62B3592DA2335A00634CB8 /* CarHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F62B35C2DA2335A00634CB8 /* CarHacksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarHacksApp.swift; sourceTree = "<group>"; };
+		5F62B35E2DA2335A00634CB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5F62B3602DA2335B00634CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F62B3632DA2335B00634CB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F62B36B2DA233AF00634CB8 /* CarBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBrand.swift; sourceTree = "<group>"; };
+		5F62B36E2DA2342200634CB8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5F62B3702DA2357700634CB8 /* BrandsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsView.swift; sourceTree = "<group>"; };
+		5F62B3722DA2379C00634CB8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5F62B3742DA239FA00634CB8 /* AddPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostView.swift; sourceTree = "<group>"; };
+		5FBC2BAF2DA26142009AD26D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5FDEC45A2DB29CB400F9B9D7 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		5FDEC45C2DB2A41400F9B9D7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F62B3562DA2335A00634CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F62B3502DA2335A00634CB8 = {
+			isa = PBXGroup;
+			children = (
+				5F62B35B2DA2335A00634CB8 /* CarHacks */,
+				5F62B35A2DA2335A00634CB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F62B35A2DA2335A00634CB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F62B3592DA2335A00634CB8 /* CarHacks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F62B35B2DA2335A00634CB8 /* CarHacks */ = {
+			isa = PBXGroup;
+			children = (
+				5F62B36D2DA2340100634CB8 /* Views */,
+				5F62B36A2DA2337C00634CB8 /* Models */,
+				5F62B35C2DA2335A00634CB8 /* CarHacksApp.swift */,
+				5F62B35E2DA2335A00634CB8 /* ContentView.swift */,
+				5F62B3602DA2335B00634CB8 /* Assets.xcassets */,
+				5F62B3622DA2335B00634CB8 /* Preview Content */,
+				5FDEC45C2DB2A41400F9B9D7 /* DataManager.swift */,
+			);
+			path = CarHacks;
+			sourceTree = "<group>";
+		};
+		5F62B3622DA2335B00634CB8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5F62B3632DA2335B00634CB8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F62B36A2DA2337C00634CB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F62B36B2DA233AF00634CB8 /* CarBrand.swift */,
+				5FBC2BAF2DA26142009AD26D /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F62B36D2DA2340100634CB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F62B36E2DA2342200634CB8 /* HomeView.swift */,
+				5F62B3702DA2357700634CB8 /* BrandsView.swift */,
+				5F62B3722DA2379C00634CB8 /* ProfileView.swift */,
+				5F62B3742DA239FA00634CB8 /* AddPostView.swift */,
+				5FDEC45A2DB29CB400F9B9D7 /* CameraView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F62B3582DA2335A00634CB8 /* CarHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F62B3672DA2335B00634CB8 /* Build configuration list for PBXNativeTarget "CarHacks" */;
+			buildPhases = (
+				5F62B3552DA2335A00634CB8 /* Sources */,
+				5F62B3562DA2335A00634CB8 /* Frameworks */,
+				5F62B3572DA2335A00634CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarHacks;
+			productName = CarHacks;
+			productReference = 5F62B3592DA2335A00634CB8 /* CarHacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F62B3512DA2335A00634CB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5F62B3582DA2335A00634CB8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 5F62B3542DA2335A00634CB8 /* Build configuration list for PBXProject "CarHacks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F62B3502DA2335A00634CB8;
+			productRefGroup = 5F62B35A2DA2335A00634CB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F62B3582DA2335A00634CB8 /* CarHacks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F62B3572DA2335A00634CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F62B3642DA2335B00634CB8 /* Preview Assets.xcassets in Resources */,
+				5F62B3612DA2335B00634CB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F62B3552DA2335A00634CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F62B3712DA2357700634CB8 /* BrandsView.swift in Sources */,
+				5FDEC45D2DB2A41400F9B9D7 /* DataManager.swift in Sources */,
+				5F62B35F2DA2335A00634CB8 /* ContentView.swift in Sources */,
+				5F62B36F2DA2342200634CB8 /* HomeView.swift in Sources */,
+				5FDEC45B2DB29CB400F9B9D7 /* CameraView.swift in Sources */,
+				5FBC2BB02DA26142009AD26D /* Post.swift in Sources */,
+				5F62B3752DA239FA00634CB8 /* AddPostView.swift in Sources */,
+				5F62B36C2DA233AF00634CB8 /* CarBrand.swift in Sources */,
+				5F62B3732DA2379C00634CB8 /* ProfileView.swift in Sources */,
+				5F62B35D2DA2335A00634CB8 /* CarHacksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F62B3652DA2335B00634CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F62B3662DA2335B00634CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F62B3682DA2335B00634CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarHacks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StudentTeacherApp.CarHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F62B3692DA2335B00634CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarHacks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StudentTeacherApp.CarHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F62B3542DA2335A00634CB8 /* Build configuration list for PBXProject "CarHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F62B3652DA2335B00634CB8 /* Debug */,
+				5F62B3662DA2335B00634CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F62B3672DA2335B00634CB8 /* Build configuration list for PBXNativeTarget "CarHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F62B3682DA2335B00634CB8 /* Debug */,
+				5F62B3692DA2335B00634CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F62B3512DA2335A00634CB8 /* Project object */;
+}
