@@ -9,54 +9,35 @@ import Foundation
 import SwiftUI
 import UIKit
 
-struct Post: Identifiable, Codable {
+struct Post: Identifiable, Hashable, Codable {
     let id = UUID()
-    let title: String
-    let description: String
-    let model: String?
-    let category: String
-    let images: [String]
-    let date: Date
+        var title: String
+        var description: String
+        var model: String?
+        var category: String
+        var imagePaths: [String]  // Храним пути вместо UIImage
+        var date: Date
     
-}
+    var images: [UIImage] {
+           imagePaths.compactMap { FileManager.loadImage(path: $0) }
+       }
 
-let samplePosts: [Post] = [
-    Post(
-        title: "Замена масла в двигателе",
-        description: "Пошаговая инструкция по замене масла в Toyota Camry",
-        model: "Toyota Camry",
-        category: "Обслуживание",
-        images: [],
-        date: Date()
-    ),
-    Post(
-        title: "Как сэкономить топливо",
-        description: "10 советов по экономии топлива для любого автомобиля",
-        model: nil,
-        category: "Лайфхак",
-        images: [],
-        date: Date()
-    ),
+    mutating func addImage(_ image: UIImage) {
+          if let path = FileManager.saveImage(image) {
+              imagePaths.append(path)
+          }
+      }
     
-    Post(
-        title: "Ремонт подвески",
-        description: "Как заменить амортизаторы",
-        model: "BMW X5",
-        category: "Ремонт",
-        images: [],
-        date: Date()
-    ),
-    Post(
-        title: "Экономия топлива",
-        description: "10 советов по уменьшению расхода",
-        model: nil, // Общий совет
-        category: "Лайфхак",
-        images: [],
-        date: Date()
-    )
-]
+    // Удаление изображения
+    mutating func removeImage(at index: Int) {
+        let path = imagePaths.remove(at: index)
+        FileManager.deleteFile(path: path)
+    }
+}
 
 enum MediaType {
     case photo(UIImage)
     case video(URL)
 }
+
+
